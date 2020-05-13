@@ -11,6 +11,7 @@ function runCommand(command, log = true) {
   }
 }
 
+console.log();
 console.log(chalk.cyan("Merging reports from Cypress & Jest...."));
 
 try {
