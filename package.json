@@ -1,0 +1,31 @@
+{
+  "name": "merge-cypress-jest-coverage",
+  "version": "1.6.0",
+  "description": "Merge your Cypress and Jest coverage reports with ease.",
+  "main": "index.js",
+  "bin": {
+    "merge-cypress-jest-coverage": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TransmissionsDev",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transmissionsdev/merge-cypress-jest-coverage.git"
+  },
+  "keywords": [
+    "cypress",
+    "jest",
+    "tests",
+    "nyc"
+  ],
+  "bugs": {
+    "url": "https://github.com/transmissionsdev/merge-cypress-jest-coverage/issues"
+  },
+  "homepage": "https://github.com/transmissionsdev/merge-cypress-jest-coverage#readme",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
